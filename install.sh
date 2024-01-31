@@ -17,7 +17,7 @@ mkdir -p /home/ec2-user/ansible-dev
 git clone https://github.com/Theoalban/week17-ansible-code.git
 
 cp -r week17-ansible-code/* /home/ec2-user/ansible-dev
-
+sudo chown -R ec2-user:ec2-user /home/ec2-user
 rm -rf week17-ansible-code
 
 exit 0
